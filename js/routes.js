@@ -36,7 +36,6 @@
         resolve : {
           items :  ['$stateParams','MenuDataService', function($stateParams, MenuDataService){
               return MenuDataService.getItemsForCategory($stateParams.categId).then(function(response){
-                console.log('categId : ',$stateParams.categId);
                 return  response.data.menu_items;
               });
           }]

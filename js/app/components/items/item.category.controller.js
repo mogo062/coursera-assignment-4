@@ -7,7 +7,6 @@
   MenuCategoryItemsController.$inject=['items'];
   function MenuCategoryItemsController(items) {
     var menuCategoryItems = this;
-    console.log('menuCategoryItems.items : ',items);
     menuCategoryItems.items = items;
 
     menuCategoryItems.tbheader=[

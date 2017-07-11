@@ -80,3 +80,23 @@ td.fixedWith-50 {
 div.center{
   margin-left: 50%;
 }
+div.card {
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  margin : 0 0 15px 0;
+}
+a.card-link{
+  color: white;
+}
+div.card-hd {
+    background-color: #355C7D;
+    color: white;
+    padding: 10px;
+    font-size: 40px;
+}
+div.card-container {
+    height : 55px;
+    padding: 10px;
+
+}
