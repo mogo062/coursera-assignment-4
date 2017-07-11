@@ -17,7 +17,7 @@
     .state('categories',{
       url : '/categories',
     //  template : '<categories items="menuCategories.items"></categories><ui-view></ui-view>',
-      templateUrl : 'js/app/templates/categoriesList.template.html',
+      templateUrl : 'js/app/templates/categories/categoriesList.template.html',
       controller : 'MenuCategoriesController',
       controllerAs : 'menuCategories',
       resolve : {
@@ -30,7 +30,7 @@
     })
     .state('categories.items',{
         url : '/categories/{categId}',
-        templateUrl : 'js/app/templates/itemsList.template.html',
+        templateUrl : 'js/app/templates/items/itemsList.template.html',
         controller : 'MenuCategoryItemsController',
         controllerAs : 'menuCategoryItems',
         resolve : {
